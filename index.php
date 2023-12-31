@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">    
-    <title>TEAM ZEON</title>
+    <title>ERROR EMPIRE</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
 		<div class="col-md-8">
 			<div class="card">
 				<div class="card-body text-center">
-					<h4 class="mb-2"><strong>BAD BOY </strong></h4>
+					<h4 class="mb-2"><strong>ERROR CHECKER </strong></h4>
 			
 					<textarea rows="6" class="form-control text-center form-checker mb-2" placeholder=""></textarea>
 					<button class="btn btn-play btn-glow btn-bg-gradient-x-blue-cyan text-white" style="width: 49%; float: left;"><i class="fa fa-play"></i></button>
