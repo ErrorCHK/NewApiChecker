@@ -354,11 +354,11 @@ $time = $info['total_time'];
     elseif(strpos($result3, "stripe_3ds2_fingerprint")) {
       echo "CCN</span>  </span>CC: $lista</span>  <br>RESPONSE:3D_Required</span><br>";
     }
-    elseif(strpos($result3, "card was declined.")) {
+    elseif(strpos($result3, "Your card was declined.")) {
       echo "CCN</span>  </span>CC: $lista</span>  <br>RESPONSE: card was declined</span><br>";
     }
   else {
-    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span><span class='text-danger'> MSG->[$msg]</span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span><span class='text-danger'> MSG->[$msg]</span><span> <span class='text-danger'>[BY:- @ERR0R9]<b></span>  </br>";
   }
   
 //echo $result2;
