@@ -40,8 +40,8 @@ if (strlen($ano) == 2) $ano = "20$ano";
 
 
 //================= [ PROXY ] =================//
-$curl = curl_init('http://ipv4.webshare.io/'); curl_setopt($curl, CURLOPT_PROXY, '172.65.64.100:6060'); 
-curl_setopt($curl, CURLOPT_PROXYUSERPWD, 'tqz0kumxn6c00pt:3vxwpufeky6t8xa'); curl_exec($curl);
+$curl = curl_init('http://ipv4.webshare.io/'); curl_setopt($curl, CURLOPT_PROXY, '162.254.6.223:6686'); 
+curl_setopt($curl, CURLOPT_PROXYUSERPWD, '0KW6T:6MRKSHCH'); curl_exec($curl);
 
 //================= [ CURL REQUESTS ] =================//    
 #-------------------[1st REQ]--------------------#
